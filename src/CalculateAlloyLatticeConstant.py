@@ -1,4 +1,4 @@
-from DataSet import LATTICE_A, LATTICE_BOWING_VALUES, A_C_VALLEY_Values, ELASTIC_CONSTANTS
+from src.DataSet import LATTICE_A, LATTICE_BOWING_VALUES, A_C_VALLEY_Values, ELASTIC_CONSTANTS
 
 
 def CalculateLatticeConstant(xSi, yASn):
