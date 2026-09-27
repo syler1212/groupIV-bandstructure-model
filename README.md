@@ -23,6 +23,18 @@ The solver is verified against experimental data from published group-IV photoni
 
 ### 1. Setup Environment
 ```bash
-git clone https://github.com/syler1212/groupIV-bandstructure-model.git
+git clone [https://github.com/syler1212/groupIV-bandstructure-model.git](https://github.com/syler1212/groupIV-bandstructure-model.git)
 cd groupIV-bandstructure-model
 pip install -r requirements.txt
+```
+
+### 2. Run Interactive UI
+```bash
+python3 -m src.Ui
+```
+
+### 3. Run Validation Tests
+```bash
+pytest tests/test_BandGap.py -v
+```
+
