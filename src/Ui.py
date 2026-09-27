@@ -9,7 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
 
-from CalculateBandGapType import CalculateBandGapType
+from src.CalculateBandGapType import CalculateBandGapType
 
 
 class BandDiagramApp:
