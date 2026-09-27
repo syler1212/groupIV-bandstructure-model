@@ -1,5 +1,5 @@
-from DataSet import VALLEYS, BOWING
-from CalculateAlloyLatticeConstant import CalculateBiaxialStrain
+from src.DataSet import VALLEYS, BOWING
+from src.CalculateAlloyLatticeConstant import CalculateBiaxialStrain
 
 
 class BandGapResult(tuple):
